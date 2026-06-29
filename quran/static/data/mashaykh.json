@@ -1,0 +1,592 @@
+{
+  "reciters": [
+    {
+      "id": 1,
+      "name": "شيخ أبو بكر الشاطري",
+      "letter": "ش",
+      "img":"/static/img/shaikh-abubakr-as-shatery.webP",
+      "moshaf": [
+        {
+          "id": 1,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/shatri/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "أحمد بن علي العجمي",
+      "letter": "أ",
+      "img":"/static/img/shaikh-ben-ali-elagme.webP",
+      "moshaf": [
+        {
+          "id": 2,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/ajm/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "خالد الجليل",
+      "letter": "خ",
+      "img":"/static/img/shaikh-khaled-galel.webP",
+      "moshaf": [
+        {
+          "id": 3,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/jleel/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "خالد القحطاني",
+      "letter": "خ",
+      "img":"/static/img/shaikh-khaled-el-kahtany.webP",
+      "moshaf": [
+        {
+          "id": 4,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/qht/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "سعد الغامدي",
+      "letter": "س",
+            "img":"/static/img/shaikh-saad-el-3amde.webP",
+      "moshaf": [
+        {
+          "id": 5,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server7.mp3quran.net/s_gmd/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "سعود الشريم",
+      "letter": "س",
+            "img":"/static/img/shaikh-saood-el-shoram.webP",
+      "moshaf": [
+        {
+          "id": 6,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server7.mp3quran.net/shur/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "صلاح بو خاطر",
+      "letter": "ص",
+        "img":"/static/img/shaikh-Salah-Bou-Khater.webP",
+      "moshaf": [
+        {
+          "id": 7,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/bu_khtr/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "عادل ريان",
+      "letter": "ع",
+        "img":"/static/img/shaikh-Adel-Rayyan.webP",
+      "moshaf": [
+        {
+          "id": 8,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/ryan/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "عبدالباسط عبدالصمد",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdul-Basit-Abdul-Samad.webP",
+      "moshaf": [
+        {
+          "id": 9,
+          "name": "المصحف المجود - المصحف المجود",
+          "server": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "عبدالعزيز الزهراني",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdulaziz-Al-Zahran.webP",
+      "moshaf": [
+        {
+          "id": 10,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server9.mp3quran.net/zahrani/"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "عبدالله عواد الجهني",
+      "letter": "ع",
+      "img":"/static/img/Abdullah-Awad-Al-Juhani.webP",
+      "moshaf": [
+        {
+          "id": 11,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server13.mp3quran.net/jhn/"
+
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "فارس عباد",
+      "letter": "ف",
+            "img":"/static/img/shaikh-Fares-Abbad.webP",
+      "moshaf": [
+        {
+          "id": 12,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/frs_a/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "ناصر القطامي",
+      "letter": "ن",
+      "img":"/static/img/shaikh-Naser-Al-Katamy.webP",
+      "moshaf": [
+        {
+          "id": 13,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server6.mp3quran.net/qtm/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "نبيل الرفاعي",
+      "letter": "ن",
+      "img":"/static/img/shaikh-Nabil-Al-Rifai.webP",
+      "moshaf": [
+        {
+          "id": 14,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server9.mp3quran.net/nabil/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "ياسر الدوسري",
+      "letter": "ي",
+      "img":"/static/img/shaikh-Yasser-Al-Dosary.webP",
+      "moshaf": [
+        {
+          "id": 15,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/yasser/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "ماهر المعيقلي",
+        "img":"/static/img/shaikh-Maher-Almaikula.webP",
+      "letter": "م",
+      "moshaf": [
+        {
+          "id": 16,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server12.mp3quran.net/maher/"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "محمد الطبلاوي",
+      "letter": "م",
+      "img":"/static/img/shaikh-Muhammad-Al-Tablawi.webP",
+      "moshaf": [
+        {
+          "id": 117,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server12.mp3quran.net/tblawi/"
+        }
+      ]
+    },
+    {
+      "id":18,
+      "name": "محمد أيوب",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mohamed-Ayoub.webP",
+      "moshaf": [
+        {
+          "id": 18,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/ayyub/"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "محمد جبريل",
+      "letter": "م",
+      "img":"/static/img/shaikh-Muhammad-Jibril.webP",
+      "moshaf": [
+        {
+          "id": 19,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/jbrl/"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "محمد صديق المنشاوي",
+      "letter": "م",
+      "img":"/static/img/shaikh-Muhammad-Siddiq_Al-Minshawi.webP",
+      "moshaf": [
+        {
+          "id": 20,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/minsh/Almusshaf-Al-Mojawwad/"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "محمد عبدالكريم",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mohammad-Abd-Al-Kareem.webP",
+      "moshaf": [
+        {
+          "id": 21,
+          "name": "ورش عن نافع من طريق أبي بكر الأصبهاني - مرتل",
+          "server": "https://server12.mp3quran.net/m_krm/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Abi-Baker-Alasbahani/"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "محمود خليل الحصري",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mahmoud-Khalil-Al-Hosary.webP",
+      "moshaf": [
+        {
+          "id": 22,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server13.mp3quran.net/husr/"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "محمود علي البنا",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mahmoud-Ali_Al-Banna.webP",
+      "moshaf": [
+        {
+          "id": 23,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/bna/"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "مشاري العفاسي",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mishari-Al-afasi.webP",
+      "moshaf": [
+        {
+          "id": 24,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/afs/"
+        }
+      ]
+    },
+
+    {
+      "id": 25,
+      "name": "ياسر سلامة",
+      "letter": "ي",
+      "img":"/static/img/shaikh-Yasser-Salama.webP",
+      "moshaf": [
+        {
+          "id": 25,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server12.mp3quran.net/salamah/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "حاتم فريد الواعر",
+      "img":"/static/img/shaikh-Hatem-Farid-Al-Waer.webP",
+      "letter": "ح",
+      "moshaf": [
+        {
+          "id": 26,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/hatem/"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "إبراهيم الجرمي",
+      "letter": "إ",
+      "img":"/static/img/shaikh-Ibrahim-Al-Jarmi.webP",
+      "moshaf": [
+        {
+          "id": 27,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/jormy/"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "محمود الرفاعي",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mahmoud-Al-Rifai.webP",
+      "moshaf": [
+        {
+          "id": 28,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/mrifai/"
+        }
+      ]
+    },
+
+    {
+      "id": 29,
+      "name": "جمعان العصيمي",
+      "letter": "ج",
+      "img":"/static/img/shaikh-Juman-Al-Osaimi.webP",
+      "moshaf": [
+        {
+          "id": 29,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server6.mp3quran.net/jaman/"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "الفاتح محمد الزبير",
+      "letter": "ا",
+      "img":"/static/img/shaikh-Al-Fatih-Muhammad-Al-Zubair.webP",
+      "moshaf": [
+        {
+          "id": 30,
+          "name": "الدوري عن أبي عمرو - مرتل",
+          "server": "https://server6.mp3quran.net/fateh/"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "رعد محمد الكردي",
+      "letter": "ر",
+      "img":"/static/img/shaikh-Raad-Muhammad-Al-Kurdi.webP",
+      "moshaf": [
+        {
+          "id": 31,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server6.mp3quran.net/kurdi/"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "عبدالرحمن العوسي",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdul-Rahman-Al-Aws.webP",
+      "moshaf": [
+        {
+          "id": 32,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server6.mp3quran.net/aloosi/"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "عبدالرحمن الماجد",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdul-Rahman-Al-Majid.webP",
+      "moshaf": [
+        {
+          "id": 33,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/a_majed/"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "منصور السالمي",
+      "letter": "م",
+      "img":"/static/img/shaikh-Mansour-Al-Salmi.webP",
+      "moshaf": [
+        {
+          "id": 34,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server14.mp3quran.net/mansor/"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "أحمد النفيس",
+      "letter": "أ",
+      "img":"/static/img/shaikh-Ahmed-Al-Nafis.webP",
+      "moshaf": [
+        {
+          "id": 35,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/nufais/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "عبدالله كامل",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdullah-Kamel.webP",
+      "moshaf": [
+        {
+          "id": 36,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/kamel/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "بيشه وا قادر الكردي",
+      "img":"/static/img/shaikh-Bisha-wa-Qadir-Al-Kurdi.webP",
+      "letter": "ب",
+      "moshaf": [
+        {
+          "id": 37,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "عبدالإله بن عون",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdul-Ilah-bin-Aoun.webP",
+      "moshaf": [
+        {
+          "id": 38,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/a_binaoun/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "نورين محمد صديق",
+      "letter": "ن",
+      "img":"/static/img/shaikh-Noreen-Muhammad-Siddiq.webP",
+      "moshaf": [
+        {
+          "id": 39,
+          "name": "الدوري عن أبي عمرو - مرتل",
+          "server": "https://server16.mp3quran.net/nourin_siddig/Rewayat-Aldori-A-n-Abi-Amr/"
+        }
+      ]
+    },
+
+    {
+      "id": 40,
+      "name": "خالد كريم محمدي",
+      "letter": "خ",
+      "img":"/static/img/unnown.webP",
+      "moshaf": [
+        {
+          "id": 40,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/kh_mohammadi/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "حسن صالح",
+      "letter": "ح",
+      "img":"/static/img/shaikh-Hassan-Saleh.webP",
+      "moshaf": [
+        {
+          "id": 41,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/h_saleh/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "عبدالرحمن الشحات",
+      "letter": "ع",
+      "img":"/static/img/shaikh-Abdul-Rahman-Al-Shahat.webP",
+      "moshaf": [
+        {
+          "id": 42,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server16.mp3quran.net/a_alshahhat/Rewayat-Hafs-A-n-Assem/"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "هشام الهراز",
+      "letter": "ه",
+      "img":"/static/img/shaikh-Hisham-Al-Haraz.webP",
+      "moshaf": [
+        {
+          "id": 43,
+          "name": "ورش عن نافع - مرتل",
+          "server": "https://server16.mp3quran.net/H-Lharraz/Rewayat-Warsh-A-n-Nafi/"
+        }
+      ]
+    },
+    {
+    "id": 44,
+            "name": "عادل الكلباني",
+            "letter": "ع",
+            "img":"/static/img/shiekh-Adel-Al-Kalbani.webP",
+            "moshaf": [
+                {
+                    "id": 133,
+                    "name": "حفص عن عاصم - مرتل",
+                    "server": "https://server8.mp3quran.net/a_klb/"
+                }
+            ]
+        },        {
+    "id": 45,
+            "name": "بندر بليله",
+            "letter": "ب",
+            "img":"/static/img/shiekh-Bandar-Balila.webP",
+            "moshaf": [
+                {
+                    "id": 175,
+            "name": "حفص عن عاصم - مرتل",
+                "server": "https://server6.mp3quran.net/balilah/"
+        }
+      ]
+    }
+  ]
+}

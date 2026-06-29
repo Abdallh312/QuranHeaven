@@ -1,0 +1,35 @@
+
+{% block blockname %}
+  
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>welcomepage</title>
+  <link rel="stylesheet" href="/static/css/mystyle.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="{% url 'home' %}">الرئيسية</a></li>
+        <li><a href="{% url 'home' %}">الدورات</a></li>
+        <li>...</li>
+        <li><a href="{% url 'login' %}" class="join-btn">انضم إلينا</a></li>
+        <li><a href="{% url 'contact' %}" class="contact-btn">تواصل معنا</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="content">
+        <h1>مرحباً بكم في ملاذ القرآن</h1>
+        <p>اكتشف جمال القرآن وتعلمه في بيئة هادئة ومريحة.</p>
+        <a href="{% url 'login' %}" class="cta-btn">انضم إلينا</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+{% endblock blockname %}

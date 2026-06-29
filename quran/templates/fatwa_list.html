@@ -1,0 +1,35 @@
+{% extends "header.html" %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <title>Fatwas</title>
+    <link rel="stylesheet" href="{% static 'css/cardsdegin.css' %}">
+</head>
+
+    <body>
+<div class="row media content-section mobiledevice">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="d-flex">
+            <div>
+                <h1 class="title-style">  List of fatwas</h1>
+            </div>
+        </div>
+    <ul>
+        {% for fatwa in fatwas %}
+            <li>
+                <a href="{% url 'fatwa_detail' fatwa.id %}">
+                    {{ fatwa.category }} - {{ fatwa.date|date:"Y-m-d" }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>    
+
+    </div>
+</div>
+</body>
+</html>
+{% endblock content %}

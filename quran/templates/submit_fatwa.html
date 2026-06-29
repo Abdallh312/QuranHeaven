@@ -1,0 +1,121 @@
+{% extends "header.html" %}
+{% block content %}
+  
+
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatwa Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #3c6f50;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+
+            border-radius: 5px;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2f5d42;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #2f5d42;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #3c6f50;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="form-container">
+        <h2>Make order</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+              {% csrf_token %}
+              {{form.as_p}}
+              </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+{% endblock content %}

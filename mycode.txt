@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Details</title>
+    <!-- Include Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h3 class="text-center">Exchange Details</h3>
+    <div class="card my-4">
+        <div class="card-header bg-info text-white text-center">
+            Exchange ID: <strong>#SPEEDY59898</strong>
+        </div>
+        <div class="card-body">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <p><strong>Send</strong></p>
+                    <p>1,000.00 EGP</p>
+                    <small>via Etisalat Cash</small>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Get</strong></p>
+                    <p>19.14 USD</p>
+                    <small>via REDOTPAY ID</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info text-center">
+        <h5>معلومات الدفع</h5>
+        <div class="alert alert-danger">هذا الرقم خاص بالتحويلات وليس بالدعم...</div>
+        <div class="alert alert-warning">
+            تنبيه هام: جميع الأرقام متغيره...
+        </div>
+        <div class="alert alert-light">
+            <strong style="font-size: 1.5rem; color: green;">01095815627</strong>
+        </div>
+        <p class="text-muted">هذه العملية تتم يدويا من قبل فريقنا</p>
+    </div>
+
+    <form method="post" enctype="multipart/form-data" class="border p-4 bg-light">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.number_cash_wallet.label_tag }}
+            {{ form.number_cash_wallet }}
+        </div>
+        <div class="form-group">
+            {{ form.screenshot.label_tag }}
+            {{ form.screenshot }}
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+    </form>
+</div>
+</body>
+</html>

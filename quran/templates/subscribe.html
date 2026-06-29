@@ -1,0 +1,182 @@
+{% extends "header.html" %}
+
+{% block content %}
+    
+<form action="window.history.back()">
+    <button class="button" >
+      <div class="button-box">
+        <span class="button-elem">
+          <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+            ></path>
+          </svg>
+        </span>
+        <span class="button-elem">
+          <svg viewBox="0 0 46 40">
+            <path
+              d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+            ></path>
+          </svg>
+        </span>
+      </div>
+    </button>
+    </form>    
+    
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; text-align: center;">
+    <header style="padding: 20px; background-color: #f9f9f9;">
+        <h1 style="font-size: 2em; margin-bottom: 10px;">Choose one of our core plans</h1>
+        <p style="margin-bottom: 20px; color: #555;">Looking for advanced features? Check out our latest .</p>
+        <div style="margin-bottom: 30px;">
+            <center><label style="padding: 10px 20px; border: 1px solid #ccc; background: #3A6B54; cursor: pointer;">this money will be to upgrade the website and buy a domin and add features</label></center>
+        </div>
+    </header>
+
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; padding: 20px;">
+        <!-- Basic Plan -->
+        <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 250px; background: #fff;">
+            <h2 style="font-size: 1.5em; margin-bottom: 10px;">Basic</h2>
+            <p style="color: #555; margin-bottom: 20px;">Get Peaceful life and get best sheik and with easy way to save quran</p>
+            <h3 style="font-size: 1.8em; margin-bottom: 10px;">100 EGP <span style="font-size: 0.8em; color: #555;"></span></h3>
+            
+            <a href="{% url 'payment' %}"><button style="margin: 20px 0; padding: 10px 20px; background: #007BFF; color: #fff; border: none; cursor: pointer; border-radius: 5px;">Get Basic</button></a>
+            <ul style="list-style: none; padding: 0; text-align: left;">
+                <li>&#10003; 30 days in the website</li>
+                <li>&#10003; 1 user</li>
+                <li>&#10003; get quran course as u like in 30 days</li>
+            </ul>
+        </div>
+
+        <!-- Plus Plan -->
+        <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 250px; background: #fff;">
+            <h2 style="font-size: 1.5em; margin-bottom: 10px;">Plus</h2>
+            <p style="color: #555; margin-bottom: 20px;">Get Peaceful life and all features of basic and more days</p>
+            <h3 style="font-size: 1.8em; margin-bottom: 10px;">200 EGP <span style="font-size: 0.8em; color: #555;"></span></h3>
+            {% comment %} <p style="color: #28a745;">Save 118 USD /yr</p> {% endcomment %}
+            <a href="{% url 'payment_yearly' %}"><button style="margin: 20px 0; padding: 10px 20px; background: #007BFF; color: #fff; border: none; cursor: pointer; border-radius: 5px;">Get Plus</button></a>
+            <ul style="list-style: none; padding: 0; text-align: left;">
+                <li>&#10003; 2 months in the website</li>
+                <li>&#10003; 2 users</li>
+                <li>&#10003; Everything in Basic</li>
+            </ul>
+        </div>
+
+        {% comment %} <!-- Business Plan -->
+        <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 250px; background: #fff;">
+            <h2 style="font-size: 1.5em; margin-bottom: 10px;">Business</h2>
+            <p style="color: #555; margin-bottom: 20px;">Analyze performance and do more with your data</p>
+            <h3 style="font-size: 1.8em; margin-bottom: 10px;">83 USD <span style="font-size: 0.8em; color: #555;">/mo</span></h3>
+            <p style="color: #28a745;">Save 198 USD /yr</p>
+            <button style="margin: 20px 0; padding: 10px 20px; background: #007BFF; color: #fff; border: none; cursor: pointer; border-radius: 5px;">Get Business</button>
+            <ul style="list-style: none; padding: 0; text-align: left;">
+                <li>&#10003; 10,000 responses/mo included</li>
+                <li>&#10003; 5 users</li>
+                <li>&#10003; Everything in Plus</li>
+                <li>&#10003; Drop-off rates</li>
+                <li>&#10003; Conversion tracking</li>
+                <li>&#10003; Priority support and live chat</li>
+            </ul>
+        </div> {% endcomment %}
+
+        {% comment %} <!-- Enterprise Plan -->
+        <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 250px; background: #fff;">
+            <h2 style="font-size: 1.5em; margin-bottom: 10px;">Enterprise</h2>
+            <p style="color: #555; margin-bottom: 20px;">Unlock limitless growth with advanced features and support</p>
+            <button style="margin: 20px 0; padding: 10px 20px; background: #007BFF; color: #fff; border: none; cursor: pointer; border-radius: 5px;">Contact Sales</button>
+            <ul style="list-style: none; padding: 0; text-align: left;">
+                <li>&#10003; Tailored response limits and seats</li>
+                <li>&#10003; VIP support and dedicated outcomes manager</li>
+                <li>&#10003; Custom domains and branding</li>
+                <li>&#10003; Single Sign-On (SSO)</li>
+                <li>&#10003; HIPAA and GDPR compliance available</li>
+                <li>&#10003; Select preferred data center</li>
+            </ul>
+        </div> {% endcomment %}
+    </div>
+</body>
+<style>
+  
+    .button {
+        display: block;
+        position: relative;
+        width: 56px;
+        height: 56px;
+        margin: 0;
+        overflow: hidden;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        border: 0;
+      }
+      
+      .button:before,
+      .button:after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        inset: 7px;
+      }
+      
+      .button:before {
+        border: 4px solid #f0eeef;
+        transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+          transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+      }
+      
+      .button:after {
+        border: 4px solid #96daf0;
+        transform: scale(1.3);
+        transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+          transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        opacity: 0;
+      }
+      
+      .button:hover:before,
+      .button:focus:before {
+        opacity: 0;
+        transform: scale(0.7);
+        transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+          transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+      
+      .button:hover:after,
+      .button:focus:after {
+        opacity: 1;
+        transform: scale(1);
+        transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+          transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+      }
+      
+      .button-box {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .button-elem {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 17px 18px 0 18px;
+        transform: rotate(180deg);
+        fill: #f0ee3;
+      }
+      
+      .button:hover .button-box,
+      .button:focus .button-box {
+        transition: 0.4s;
+        transform: translateX(-56px);
+      }
+      
+    </style>
+</html>
+{% endblock content %}

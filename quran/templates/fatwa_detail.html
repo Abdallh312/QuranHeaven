@@ -1,0 +1,35 @@
+{% extends "header.html" %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fatwa {{ fatwa.id }}</title>
+</head>
+<body>
+    <div class="row media content-section mobiledevice">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+<body>
+    <h1>Question:</h1>
+    <p>{{ fatwa.question }}</p>
+
+    <h2>Answer:</h2>
+    <p>{{ fatwa.answer }}</p>
+
+    <h3>Category: {{ fatwa.category }}</h3>
+    <p><strong>Fatwa Date:</strong> {{ fatwa.date|date:"Y-m-d" }}</p>
+
+    <a href="{% url 'fatwa_list' %}">Back to Fatwa List</a>
+</body>
+    
+        </div>
+    </div>
+    </body>
+    </html>
+</html>
+
+
+
+{% endblock content %}
